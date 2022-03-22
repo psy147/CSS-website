@@ -1,0 +1,140 @@
+body {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  margin:0;
+  color:#40514E;
+}
+p{
+  color: #40514E;
+  line-height: 2;
+}
+.intro{
+
+  width:20%;
+  margin:auto;
+}
+.middle-container {
+  padding: 100px 0px;
+}
+  hr{
+
+    border-style: dotted none none;
+    border-width:5px;
+    border-color: #EAF6F6;
+    height: 2px;
+    width: 20%;
+    margin: 100px auto;
+  }
+  .btn {
+  background: #8bc3e8;
+  background-image: -webkit-linear-gradient(top, #8bc3e8, #00609c);
+  background-image: -moz-linear-gradient(top, #8bc3e8, #00609c);
+  background-image: -ms-linear-gradient(top, #8bc3e8, #00609c);
+  background-image: -o-linear-gradient(top, #8bc3e8, #00609c);
+  background-image: linear-gradient(to bottom, #8bc3e8, #00609c);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  line-height: 7;
+}
+
+.btn:hover {
+  background: #3088bf;
+  background-image: -webkit-linear-gradient(top, #3088bf, #3498db);
+  background-image: -moz-linear-gradient(top, #3088bf, #3498db);
+  background-image: -ms-linear-gradient(top, #3088bf, #3498db);
+  background-image: -o-linear-gradient(top, #3088bf, #3498db);
+  background-image: linear-gradient(to bottom, #3088bf, #3498db);
+  text-decoration: none;
+}
+.topc {
+  padding-top: 100px;
+  background-color: #EAF6F6;
+  position: relative;
+  height: 800px;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  height: 150px;
+}
+.footer-link{
+  color:#11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  margin: 20px;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.pp{
+  padding-top:60px;
+  padding-bottom: 5px;
+  color:#EAF6F6;
+  font-size: 0.75rem;
+}
+.skill-row{
+  width:50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.bottm-cloud {
+  position: absolute;
+  left: 250px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.chily{
+  width:25%;
+  float: left;
+  margin-right: 30px;
+
+
+}
+.comp{
+  width:25%;
+  float:right;
+  margin-left: 30px;
+}
+/*.csdesc{
+  clear: left;
+}
+.csdesc1{
+  clear: right;
+}
+use for clear , its not wrap around any thing bcz of float
+*/
+h1 {
+  /*  font-size:90px;  size dynamic nhe h zoom in zoom our krne pr*/
+  font-size: 5.625rem;
+  /* 100% means 16px=1em......90px=5.25em
+   for 90px ----(90/16)*100=562.5%
+   but this inherited also that is if in body i write 2em then total size of the text will be 7.25em...TO PREVENT THIS WE CAN USE rem WHICH IGNORES THE ROOT SETTINGS*/
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto;
+  /* for centering the content if width is given -->*/
+  color: #66BFBF;
+
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+
+}
+
+h3 {color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+}
